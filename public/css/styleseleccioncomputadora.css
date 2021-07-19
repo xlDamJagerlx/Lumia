@@ -1,0 +1,18 @@
+.card-footer{
+    text-align: center;
+}
+.card{
+    width: 30rem;
+    margin: 2rem 2rem 2rem 2rem;
+    float: left;
+}
+
+.card-img-top {
+    height: 80vh;
+    object-fit: cover;
+}
+.container{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}

@@ -1,0 +1,27 @@
+.acordion {
+    margin-left: 2rem;
+    float: left;
+}
+
+.acordion .bloque {
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 1em;
+}
+
+.acordion .contenido {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    transition: all .5s ease;
+}
+
+.acordion .bloque.activo .contenido {
+    height: 60rem;
+}
+.container-total{
+    justify-content: space-between;
+}
+.resumen {
+    background: brown;
+    float: left;
+}

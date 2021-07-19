@@ -1,0 +1,45 @@
+.navegador3 {
+    background-color: rgb(122, 122, 122);
+}
+
+.navegador3 ul {
+    list-style: none;
+    padding: 1px;
+}
+
+.navegador3 ul li {
+    display: inline-block;
+}
+
+.navegador3 ul li a {
+    display: block;
+    padding: 0 1rem;
+    text-decoration: none;
+    transition: all 0.3s linear;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+}
+
+.navegador3 ul li a:hover {
+    background: rgba(77, 76, 76, 0.753);
+}
+
+.navegador-buscador {
+    width: 40%;
+    display: inline-block;
+}
+
+.navegador-buscador input {
+    display: block;
+}
+
+.navegador-buscador button {
+    display: block;
+    transition: all 0.3s linear;
+    border-radius: 5px;
+}
+
+.navegador-buscador button:hover {
+    background: rgba(0, 0, 0, 0.753);
+}
